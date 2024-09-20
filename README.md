@@ -24,8 +24,7 @@ principales:
 
 ## Screenshots
 ![App Screenshot](https://github.com/lujustiniano/Informatica-2/blob/main/Captura%20de%20pantalla%202024-09-20%20195721.png?raw=true)
-
-## Screenshots
+![App Screenshot](https://github.com/lujustiniano/Informatica-2/blob/main/Imagen%20de%20WhatsApp%202024-09-19%20a%20las%2009.54.16_d592d4bf.jpg?raw=true)
 
 
 
