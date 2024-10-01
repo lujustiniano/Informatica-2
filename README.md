@@ -4,19 +4,21 @@
 # Proyecto control de llenado de tanque de agua
 ## Memoria descriptiva
 El sistema simula el funcionamiento del llenado de un tanque de agua ON-OFF en donde activa o desactiva la 
-bomba de agua según el estado que tenga dicho tanque. Los mismos han de ser:
+bomba de agua según el estado que tenga dicho tanque. Se activará la bomba si el tanque se encuentra a un 
+valor menor al referenciado. O se desactivará si la bomba el tanque posee el volumen necesario
 ### Estados:
-     S0= Tanque vacío
-     S1- LLenando
-     S2- Tanque lleno
+     S0= Bomba cerrada
+     S1= Bomba abierta
 
 ### Transiciones:
-    T0= Tanque vacío a llenando
-    T1= Llenando a tanque lleno
-    T2= tanque lleno a tanque vacío
+    S0 (Tanque Vacío) → S1 (Llenando):
+    S1 (Llenando) → S2 (Tanque Lleno):
+    S2 (Tanque Lleno) → S0 (Tanque Vacío):
     
 ## Diagrama de Máquina de Estado
 
-![App Screenshot](https://github.com/lujustiniano/Informatica-2/blob/main/Captura%20de%20pantalla%202024-09-20%20195721.png?raw=true)
+SET: Bandera de inicialización
+lt: nivel leído
+LT_set: nivel referencia 
+DeltaLT: diferencia de nivel 
 
-![App Screenshot](https://github.com/lujustiniano/Informatica-2/blob/main/Imagen%20de%20WhatsApp%202024-09-19%20a%20las%2009.54.16_d592d4bf.jpg?raw=true)
