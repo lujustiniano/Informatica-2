@@ -1,25 +1,20 @@
 [README (1).md](https://github.com/user-attachments/files/17081497/README.1.md)
 
 [Uploading R# Informatica-2
-# Proyecto Semáforo
+# Proyecto control de llenado de tanque de agua
 ## Memoria descriptiva
-El sistema simula el funcionamiento de un cruce de semáforo típico de tráfico, con tres estados 
-principales:
-### Estados y duración:
-     Semaforo 1 Verde: 30 segundos
-     Semafoto 2 Rojo:  30 segundos
-
-     Semaforo 1 Amarillo: 2 segundos
-     Semáforo 2 Amarillo: 2 segundos
-
-     Semáforo 1 Rojo: 30 segundos
-     Semáfoto 2 Verde: 30 segundos
+El sistema simula el funcionamiento del llenado de un tanque de agua ON-OFF en donde activa o desactiva la 
+bomba de agua según el estado que tenga dicho tanque. Los mismos han de ser:
+### Estados:
+     S0= Tanque vacío
+     S1- LLenando
+     S2- Tanque lleno
 
 ### Transiciones:
-    Verde - Rojo → Amarillo - Amarillo
-    Amarillo - Amarillo → Rojo - Verde
-    Rojo -Verde → Amarillo - Amarillo
-    Amarillo - Amarillo → Verde - Rojo
+    T0= Tanque vacío a llenando
+    T1= Llenando a tanque lleno
+    T2= tanque lleno a tanque vacío
+    
 ## Diagrama de Máquina de Estado
 
 ![App Screenshot](https://github.com/lujustiniano/Informatica-2/blob/main/Captura%20de%20pantalla%202024-09-20%20195721.png?raw=true)
