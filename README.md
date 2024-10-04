@@ -22,4 +22,4 @@ lt: nivel leído
 LT_set: nivel referencia 
 DeltaLT: diferencia de nivel 
 
-![App Screenshot](https://github.com/lujustiniano/Informatica-2/blob/main/Diagrama%20de%20estado%20-%20llenado%20tanque%20de%20agua.png?raw=true)
+![App Screenshot](https://github.com/lujustiniano/Informatica-2/blob/main/Mquina%20de%20estado.pngraw=true)
