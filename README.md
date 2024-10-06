@@ -7,8 +7,8 @@ El sistema simula el funcionamiento del llenado de un tanque de agua ON-OFF en d
 bomba de agua según el estado que tenga dicho tanque. Se activará la bomba si el tanque se encuentra a un 
 valor menor al referenciado. O se desactivará si la bomba el tanque posee el volumen necesario
 ### Estados:
-     S0= Bomba cerrada
-     S1= Bomba abierta
+     S0= En espera
+     S1= Llenando
 
 ### Transiciones:
     S0 (Tanque Vacío) → S1 (Llenando):
