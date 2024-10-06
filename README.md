@@ -22,4 +22,4 @@ lt: nivel leído
 LT_set: nivel referencia 
 DeltaLT: diferencia de nivel 
 
-![App Screenshot](https://github.com/lujustiniano/Informatica-2/blob/main/Mquina%20de%20estado.png?raw=true)
+![App Screenshot](https://github.com/lujustiniano/Informatica-2/blob/main/Imagen%20de%20WhatsApp%202024-10-06%20a%20las%2018.37.15_dfac2ea6.jpg?raw=true)
