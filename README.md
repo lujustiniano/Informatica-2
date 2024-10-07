@@ -3,12 +3,17 @@
 [Uploading R# Informatica-2
 # Proyecto control de llenado de tanque de agua
 ## Memoria descriptiva
-El sistema simula el funcionamiento del llenado de un tanque de agua ON-OFF en donde activa o desactiva la 
-bomba de agua según el estado que tenga dicho tanque. Se activará la bomba si el tanque se encuentra a un 
-valor menor al referenciado. O se desactivará si la bomba el tanque posee el volumen necesario
-### Estados:
-     S0= En espera
-     S1= Llenando
+Este diagrama de estados describe el funcionamiento de un sistema de llenado de un tanque de agua
+con cuatro estados: Inicio, En espera, Llenando y Emergencia.
+
+Inicio: Verifica si el tanque está lleno.
+
+     Inicio: Verifica si el tanque está lleno.
+     En espera: El sistema espera con el tanque lleno o el botón no pulsado.
+     Llenando: Llena el tanque si el botón está pulsado y el tanque no está lleno.
+     Emergencia: Activa si no hay agua en la cisterna.
+     
+Las transiciones dependen del estado del tanque, el botón y la disponibilidad de agua en la cisterna..
 
 ### Transiciones:
     S0 (Tanque Vacío) → S1 (Llenando):
