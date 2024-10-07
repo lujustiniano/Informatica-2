@@ -14,17 +14,7 @@ Inicio: Verifica si el tanque está lleno.
      Emergencia: Activa si no hay agua en la cisterna.
      
 Las transiciones dependen del estado del tanque, el botón y la disponibilidad de agua en la cisterna..
-
-### Transiciones:
-    S0 (Tanque Vacío) → S1 (Llenando):
-    S1 (Llenando) → S2 (Tanque Lleno):
-    S2 (Tanque Lleno) → S0 (Tanque Vacío):
     
 ## Diagrama de Máquina de Estado
-
-SET: Bandera de inicialización
-lt: nivel leído
-LT_set: nivel referencia 
-DeltaLT: diferencia de nivel 
 
 ![App Screenshot](https://github.com/lujustiniano/Informatica-2/blob/main/Imagen%20de%20WhatsApp%202024-10-06%20a%20las%2018.37.15_dfac2ea6.jpg?raw=true)
