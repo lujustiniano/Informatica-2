@@ -1,4 +1,4 @@
-[README (1).md](https://github.com/user-attachments/files/17081497/README.1.md)
+2[README (1).md](https://github.com/user-attachments/files/17081497/README.1.md)
 
 [Uploading R# Informatica-2
 # Proyecto control de llenado de tanque de agua
@@ -18,3 +18,9 @@ Las transiciones dependen del estado del tanque, el botón y la disponibilidad d
 ## Diagrama de Máquina de Estado
 
 ![App Screenshot](https://github.com/lujustiniano/Informatica-2/blob/main/images/Imagen%20de%20WhatsApp%202024-10-06%20a%20las%2018.37.15_dfac2ea6.jpg?raw=true)
+
+## Esquemático Poteus
+![App Screenshot](https://github.com/lujustiniano/Informatica-2/blob/main/images/Imagen%20de%20WhatsApp%202024-10-22%20a%20las%2021.23.25_c4ae1641.jpg?raw=true)
+
+## Video Simulación 
+<img scr="https://github.com/lujustiniano/Informatica-2/blob/main/video/Video-simulacion-Proteus.gif">
