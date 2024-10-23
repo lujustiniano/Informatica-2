@@ -17,4 +17,4 @@ Las transiciones dependen del estado del tanque, el botón y la disponibilidad d
     
 ## Diagrama de Máquina de Estado
 
-![App Screenshot](https://github.com/lujustiniano/Informatica-2/blob/main/Imagen%20de%20WhatsApp%202024-10-06%20a%20las%2018.37.15_dfac2ea6.jpg?raw=true)
+![App Screenshot](https://github.com/lujustiniano/Informatica-2/blob/main/images/Imagen%20de%20WhatsApp%202024-10-06%20a%20las%2018.37.15_dfac2ea6.jpg?raw=true)
