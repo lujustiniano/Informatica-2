@@ -23,4 +23,4 @@ Las transiciones dependen del estado del tanque, el botón y la disponibilidad d
 ![App Screenshot](https://github.com/lujustiniano/Informatica-2/blob/main/images/Imagen%20de%20WhatsApp%202024-10-22%20a%20las%2021.23.25_c4ae1641.jpg?raw=true)
 
 ## Video Simulación 
-<img scr="https://github.com/lujustiniano/Informatica-2/blob/main/videos/VIdeo-simulacion-Proteus.gif"/>
+<img src="https://github.com/lujustiniano/Informatica-2/blob/main/videos/VIdeo-simulacion-Proteus.gif" />
